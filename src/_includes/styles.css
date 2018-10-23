@@ -293,4 +293,10 @@ pre[data-line] .line-highlight[data-end]:after {
     top: auto;
     bottom: .4em;
 }
-
+.switch-image {
+	max-width:100vw;
+	position: relative;
+	left: 50%;
+	-webkit-transform: -webkit-translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
